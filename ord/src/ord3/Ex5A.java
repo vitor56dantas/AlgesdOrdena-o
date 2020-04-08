@@ -18,11 +18,10 @@ public class Ex5A {
 			while (j >= 0 && vet[j] > aux) {
 				vet[j + 1] = vet[j];
 				System.out.println("Contagem: "+ p + Arrays.toString(vet));
+				p ++;
 				j--;
 			}
-			p ++;
 			vet[j + 1] = aux;
-			System.out.println("Contagem: "+ p + Arrays.toString(vet));
 		}
 	}
 }
